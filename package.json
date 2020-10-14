@@ -38,5 +38,9 @@
     "hooks": {
       "pre-commit": "npm run eslint && npm test"
     }
+  },
+  "dependencies": {
+    "hexo-filter-mathjax": "^0.6.1",
+    "hexo-renderer-pandoc": "^0.3.0"
   }
 }
